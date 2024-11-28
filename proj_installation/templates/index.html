@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Welcome to Our Website!</h1>
+    <p>We are glad to have you here. Learn more about us through the links below:</p>
+
+    <ul>
+        <li><a href="{% url 'our_story' %}">Our Story</a></li>
+        <li><a href="{% url 'our_team_members' %}">Our Team Members</a></li>
+        <li><a href="{% url 'contact_us' %}">Contact Us</a></li>
+    </ul>
+{% endblock %}
+
